@@ -3,6 +3,6 @@ function onload()
 {
 	const messageElement = document.createElement('p');
 	messageElement.textContent="DOM load success";
-	document.body.appendChild(messageElement);
+	document.appendChild(messageElement);
 }
 document.addEventListener("DOMContentLoaded",onload);
